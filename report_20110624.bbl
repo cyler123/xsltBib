@@ -1,0 +1,179 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Jang et al.(2010)]{Jang2010}
+\textsc{Jang Y~S, Jank M, Maier V}, et al.
+\newblock {SiC ceramic micropatterns from polycarbosilanes}[J].
+\newblock Journal of the European Ceramic Society, 2010, 30(13):2773--2779.
+
+\bibitem[Ji et al.(2011){\natexlab{a}}]{Ji2011b}
+\textsc{Ji Z, Han W, Ye L}, et al.
+\newblock {Synthesis and characterization of ordered mesoporous silicon carbide
+  with high specific surface area}[J].
+\newblock Materials Letters, 2011, 65(2):185--187.
+
+\bibitem[Shi et al.(2006)]{Shi2006}
+\textsc{Shi Y, Meng Y, Chen D}, et al.
+\newblock {Highly Ordered Mesoporous Silicon Carbide Ceramics with Large
+  Surface Areas and High Stability}[J].
+\newblock Advanced Functional Materials, 2006, 16(4):561--567.
+
+\bibitem[Krawiec et al.(2006)]{Krawiec2006a}
+\textsc{Krawiec P, Geiger D, Kaskel S}.
+\newblock {Ordered mesoporous silicon carbide (OM-SiC) via polymer precursor
+  nanocasting.}[J].
+\newblock Chemical communications (Cambridge, England), 2006(23):2469--70.
+
+\bibitem[Ishizuka et al.(2002)]{Ishizuka2002}
+\textsc{Ishizuka N, Kobayashi H, Minakuchi H}, et al.
+\newblock {Monolithic silica columns for high-efficiency separations by
+  high-performance liquid chromatography.}[J].
+\newblock Journal of chromatography. A, 2002, 960(1-2):85--96.
+
+\bibitem[Babin et al.(2007)]{Babin2007}
+\textsc{Babin J, Iapichella J, Lef\`{e}vre B}, et al.
+\newblock {MCM-41 silica monoliths with independent control of meso- and
+  macroporosity}[J].
+\newblock New Journal of Chemistry, 2007, 31(11):1907.
+
+\bibitem[Sachse et al.(2011){\natexlab{a}}]{Sachse2011b}
+\textsc{Sachse A, Galarneau A, Fajula F}, et al.
+\newblock {Functional silica monoliths with hierarchical uniform porosity as
+  continuous flow catalytic reactors}[J].
+\newblock Microporous and Mesoporous Materials, 2011, 140(1-3):58--68.
+
+\bibitem[Fletcher et al.(2010)]{Fletcher2010}
+\textsc{Fletcher P~D~I, Haswell S~J, He P}, et al.
+\newblock {Permeability of silica monoliths containing micro- and
+  nano-pores}[J].
+\newblock Journal of Porous Materials, 2010.
+
+\bibitem[Yang et al.(2010)]{Yang2010a}
+\textsc{Yang H, Liu Q, Liu Z}, et al.
+\newblock {Controllable synthesis of aluminosilica monoliths with hierarchical
+  pore structure and their catalytic performance}[J].
+\newblock Microporous and Mesoporous Materials, 2010, 127(3):213--218.
+
+\bibitem[Sachse et al.(2011){\natexlab{b}}]{Sachse2011a}
+\textsc{Sachse A, Galarneau A, Fajula F}, et al.
+\newblock {Functional silica monoliths with hierarchical uniform porosity as
+  continuous flow catalytic reactors}[J].
+\newblock Microporous and Mesoporous Materials, 2011, 140(1-3):58--68.
+
+\bibitem[Presser and Nickel(2008)]{Presser2008a}
+\textsc{Presser V, Nickel K}.
+\newblock {Silica on Silicon Carbide}[J].
+\newblock Critical Reviews in Solid State and Materials Sciences, 2008,
+  33(1):1--99.
+
+\bibitem[Krawiec et al.(2008){\natexlab{a}}]{Krawiec2008a}
+\textsc{Krawiec P, Schrage C, Kockrick E}, et al.
+\newblock {Tubular and Rodlike Ordered Mesoporous Silicon (Oxy)carbide Ceramics
+  and their Structural Transformations}[缺文献类型标志代码].
+\newblock
+\newblock  Vol. 20.
+
+\bibitem[Links(2011)]{Links2011}
+\textsc{Links D~A}.
+\newblock {Nanoscale General synthesis and characterization of a family of
+  layered lanthanide}[J].
+\newblock 2011.
+
+\bibitem[Lin(2011)]{Lin2011}
+\textsc{Lin L}.
+\newblock {Synthesis and optical property of large-scale centimetres-long
+  silicon carbide nanowires by catalyst-free CVD route under superatmospheric
+  pressure conditions.}[J].
+\newblock Nanoscale, 2011, 3(4):1582--91.
+
+\bibitem[Huang et al.(2011)]{Huang2011a}
+\textsc{Huang H, Fox J~T, Cannon F~S}, et al.
+\newblock {In situ growth of silicon carbide nanowires from anthracite
+  surfaces}[J].
+\newblock Ceramics International, 2011, 37(3):1063--1072.
+
+\bibitem[Li et al.(2011)]{Li2011b}
+\textsc{Li X, Chen X, Song H}.
+\newblock {Preparation of silicon carbide nanowires via a rapid heating
+  process}[J].
+\newblock Materials Science and Engineering: B, 2011, 176(1):87--91.
+
+\bibitem[Lin et al.(2010)]{Lin2010}
+\textsc{Lin Z, Wang L, Zhang J}, et al.
+\newblock {Nanoscale twinning-induced elastic strengthening in silicon carbide
+  nanowires}[J].
+\newblock Scripta Materialia, 2010, 63(10):981--984.
+
+\bibitem[Mishra et al.(2009)]{Mishra2009a}
+\textsc{Mishra S~B, Mishra A~K, Krause R~W}, et al.
+\newblock {Synthesis of Silicon Carbide Nanowires from a Hybrid of Amorphous
+  Biopolymer and Sol\^{a}Gel-Derived Silica}[J].
+\newblock Journal of the American Ceramic Society, 2009, 92(12):3052--3058.
+
+\bibitem[Luo et al.(2009)]{Luo2009}
+\textsc{Luo X, Ma W, Zhou Y}, et al.
+\newblock {Synthesis and Photoluminescence Property of Silicon Carbide
+  Nanowires Via Carbothermic Reduction of Silica.}[J].
+\newblock Nanoscale research letters, 2009, 5(1):252--256.
+
+\bibitem[Zhao et al.(2009)]{Zhao2009a}
+\textsc{Zhao H, Shi L, Li Z}, et al.
+\newblock {Silicon carbide nanowires synthesized with phenolic resin and
+  silicon powders}[J].
+\newblock Physica E: Low-dimensional Systems and Nanostructures, 2009,
+  41(4):753--756.
+
+\bibitem[Sonnenburg et al.(2006)]{Sonnenburg2006b}
+\textsc{Sonnenburg K, Adelhelm P, Antonietti M}, et al.
+\newblock {Synthesis and characterization of SiC materials with hierarchical
+  porosity obtained by replication techniques.}[J].
+\newblock Physical chemistry chemical physics : PCCP, 2006, 8(30):3561--6.
+
+\bibitem[Zhao et al.(2011)]{Zhao2011}
+\textsc{Zhao B, Zhang H, Tao H}, et al.
+\newblock {Low temperature synthesis of mesoporous silicon carbide via
+  magnesiothermic reduction}[J].
+\newblock Materials Letters, 2011, 65(11):1552--1555.
+
+\bibitem[Xu et al.(2011)]{Xu2011a}
+\textsc{Xu J, Liu Y~M, Xue B}, et al.
+\newblock {A hybrid sol–gel synthesis of mesostructured SiC with tunable
+  porosity and its application as a support for propane oxidative
+  dehydrogenation}[J].
+\newblock Physical Chemistry Chemical Physics, 2011, 13(21):10111.
+
+\bibitem[Ji et al.(2011){\natexlab{b}}]{Ji2011a}
+\textsc{Ji Z, Han W, Ye L}, et al.
+\newblock {Synthesis and characterization of ordered mesoporous silicon carbide
+  with high specific surface area}[J].
+\newblock Materials Letters, 2011, 65(2):185--187.
+
+\bibitem[Yuan et al.(2011)]{Yuan2011a}
+\textsc{Yuan X, L\"{u} J, Yan X}, et al.
+\newblock {Preparation of ordered mesoporous silicon carbide monoliths via
+  preceramic polymer nanocasting}[J].
+\newblock Microporous and Mesoporous Materials, 2011, 142(2-3):754--758.
+
+\bibitem[Shimauchi et al.(2009)]{Shimauchi2009}
+\textsc{Shimauchi Y, Ode S, Yamazaki T}, et al.
+\newblock {Preparation of mesoporous silica replica using ordered mesoporous
+  carbon by vapor phase transport of silica source}[J].
+\newblock Journal of Porous Materials, 2009, 17(3):305--312.
+
+\bibitem[Krawiec et al.(2008){\natexlab{b}}]{Krawiec2008}
+\textsc{Krawiec P, Schrage C, Kockrick E}, et al.
+\newblock {Tubular and Rodlike Ordered Mesoporous Silicon (Oxy)carbide Ceramics
+  and their Structural Transformations}[J].
+\newblock Chemistry of Materials, 2008, 20(16):5421--5433.
+
+\bibitem[Krawiec and Kaskel(2006)]{Krawiec2006}
+\textsc{Krawiec P, Kaskel S}.
+\newblock {Thermal stability of high surface area silicon carbide
+  materials}[J].
+\newblock Journal of Solid State Chemistry, 2006, 179(8):2281--2289.
+
+\end{thebibliography}
