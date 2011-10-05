@@ -83,18 +83,23 @@ foreach my $entryKey (@entryKeyList){
 		my $authorListNode=$DOM->createElement("authors");
 	  AUTHOR:
 		#添加每一个作者
+		my $short="";
 		foreach my $author ($entry->author){
 			my $authorNode=$DOM->createElement("author");
 			my $firstName=$DOM->createElement("first");
+			$firstName->setAttribute("short",join('~',map({uc(substr($_,0,1))} split(/\s+|-+/,$author->first))));
 			$firstName->appendChild($DOM->createTextNode($author->first));
 			$authorNode->appendChild($firstName);
 			my $vonName=$DOM->createElement("von");
+			$vonName->setAttribute("short",join('~',map({uc(substr($_,0,1))} split(/\s+|-+/,$author->von))));
 			$vonName->appendChild($DOM->createTextNode($author->von));
 			$authorNode->appendChild($vonName);
 			my $lastName=$DOM->createElement("last");
+			$lastName->setAttribute("short",join('~',map({uc(substr($_,0,1))} split(/\s+|-+/,$author->last))));
 			$lastName->appendChild($DOM->createTextNode($author->last));
 			$authorNode->appendChild($lastName);
 			my $jrName=$DOM->createElement("jr");
+			$jrName->setAttribute("short",join('~',map({uc(substr($_,0,1))} split(/\s+|-+/,$author->jr))));
 			$jrName->appendChild($DOM->createTextNode($author->jr));
 			$authorNode->appendChild($jrName);
 
@@ -109,15 +114,19 @@ foreach my $entryKey (@entryKeyList){
 				my $editorNode=$DOM->createElement("editor");
 
 				my $firstName=$DOM->createElement("first");
+				$firstName->setAttribute("short",join('~',map({uc(substr($_,0,1))} split(/\s+|-+/,$author->first))));
 				$firstName->appendChild($DOM->createTextNode($author->first));
 				$editorNode->appendChild($firstName);
 				my $vonName=$DOM->createElement("von");
+				$vonName->setAttribute("short",join('~',map({uc(substr($_,0,1))} split(/\s+|-+/,$author->von))));
 				$vonName->appendChild($DOM->createTextNode($author->von));
 				$editorNode->appendChild($vonName);
 				my $lastName=$DOM->createElement("last");
+				$lastName->setAttribute("short",join('~',map({uc(substr($_,0,1))} split(/\s+|-+/,$author->last))));
 				$lastName->appendChild($DOM->createTextNode($author->last));
 				$editorNode->appendChild($lastName);
 				my $jrName=$DOM->createElement("jr");
+				$jrName->setAttribute("short",join('~',map({uc(substr($_,0,1))} split(/\s+|-+/,$author->jr))));
 				$jrName->appendChild($DOM->createTextNode($author->jr));
 				$editorNode->appendChild($jrName);
 				$editorListNode->appendChild($editorNode);
@@ -128,7 +137,7 @@ foreach my $entryKey (@entryKeyList){
 	  TITLE_AND_OTHER:
 		#添加标题
 		foreach my $fieldName ($entry->fieldlist()){
-			if(index("title,author,editor,",$fieldName)<0){
+			if(index("author,editor,",$fieldName)<0){
 				my $fieldNode=$DOM->createElement($fieldName);
 				$fieldNode->appendChild($DOM->createTextNode($entry->field($fieldName)));
 				$entryNode->appendChild($fieldNode);
@@ -147,4 +156,5 @@ say "Generate XML File $texfile";
 $DOM->printToFile($texfile);
 say "Your XSLT File is $xsltFile";
 die "Can't Open XSLT,$!" unless -s $xsltFile;
+
 
