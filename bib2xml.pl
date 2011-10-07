@@ -1,16 +1,13 @@
 use strict;
 use utf8;
-#use warnings;
 no warnings;
 use feature ':5.12';
 
 use XML::DOM;
+use XML::XSLT;
 use BibTeX::Parser;
 use IO::File;
 use Getopt::Long;
-use File::Path;
-use File::Spec::Functions;
-use File::Basename;
 our $texfile="";
 our $generateBib=0;
 my $options_okay=GetOptions(
@@ -154,7 +151,14 @@ XML_OUT_PUT:
 $texfile=~s/\.aux$/\.xml/i;
 say "Generate XML File $texfile";
 $DOM->printToFile($texfile);
-say "Your XSLT File is $xsltFile";
-die "Can't Open XSLT,$!" unless -s $xsltFile;
+say "Your XSLT File is $xsltFile.xslt";
+die "XSLT is not exist,$!" unless -s $xsltFile.".xslt";
+$texfile=~s/\.xml//i;
+system("xsltproc.exe -o $texfile.bbl $xsltFile.xslt $texfile.xml");
+# my $xslt=XML::XSLT->new($xsltFile.".xslt");
+# $xslt->transform($texfile);
+# 
+#  $xslt->to_dom()->printToFile($texfile);
+# $xslt->dispose();
 
 

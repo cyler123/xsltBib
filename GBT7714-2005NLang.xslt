@@ -19,6 +19,10 @@
             <xsl:with-param name="entryNode" select="."/>
           </xsl:call-template>    
         </xsl:when>
+
+        <xsl:when test="BOOK">
+          
+        </xsl:when>
       </xsl:choose>
       <xsl:text>&#10;</xsl:text>
     </xsl:for-each>
@@ -78,6 +82,8 @@
     <xsl:value-of select="$entryNode/pages"/>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
+
+  
   
   <xsl:template name="author">
     <xsl:param name="authorNode"/>
